@@ -69,14 +69,18 @@ If you're interested in contributing to sktime, you can find out more how to get
 
 Any contributions are welcome, not just code!
 
-## Installation instructions in detail
+## Installation instructions for local use
+
+To run the notebooks locally, you will need:
+
+* a local repository clone
+* a python environment with required packages installed
 
 ### Cloning the repository
 
 To clone the repository locally:
 
 `git clone https://github.com/sktime/sktime-tutorial-pydata-global-2022.git`
-
 
 ### Using conda env
 
