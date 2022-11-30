@@ -16,12 +16,22 @@ Also recommended:
 :movie_camera: **[general sktime intro tutorial](https://github.com/sktime/sktime-tutorial-pydata-global-2021) from PyData Global 2021**\
 :tv: [youtube video of sktime intro at PyData Global 2021](https://www.youtube.com/watch?v=ODspi8-uWgo)
 
-### Agenda
+## :rocket: How to get started
 
-- We will move through each of the numbered chapters in this repo section by section.
-- You should be able to follow along out of the box on [Binder](https://mybinder.org/v2/gh/sktime/sktime-tutorial-pydata-global-2022/main?filepath=notebooks)
-- Please let us know on slack if you have any issues following along during the synchronous tutorial, or join our community on [sktime slack](https://join.slack.com/t/sktime-group/shared_invite/zt-1jphqjpnk-AfxAR8IEfIVkf4By8cT7tQ) to ask for help if you are walking through this tutorial asynchrounously.
-- More details on getting started and different ways to use this repo are below.
+In the tutorial, we will move through notebooks section by section.
+
+You have different options how to run the tutorial notebooks:
+
+* Run the notebooks in the cloud on [Binder] - for this you don't have to install anything!
+* Run the notebooks on your machine. [Clone] this repository, get [conda], install the required packages (`sktime`, `pytest`, `seaborn`, `jupyter`) in an environment, and open the notebooks with that environment. For detail instructions, see below. For troubleshooting, see sktime's more detailed [installation instructions].
+* or, use python venv, and/or an editable install of this repo as a package. Instructions below.
+
+[Binder]: https://mybinder.org/v2/gh/sktime/sktime-tutorial-pydata-global-2022/main?filepath=notebooks
+[clone]: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
+[conda]: https://docs.conda.io/en/latest/
+[installation instructions]: https://www.sktime.org/en/latest/installation.html
+
+Please let us know on the pydata slack if you have any issues during the conference, or join the [sktime slack](https://join.slack.com/t/sktime-group/shared_invite/zt-1jphqjpnk-AfxAR8IEfIVkf4By8cT7tQ) to ask for help anytime.
 
 ## :bulb: Description
 
@@ -50,20 +60,6 @@ The design challenge is to formalize transformers in a way that a given type of 
 - [Pydata 2022 - How to implement your own estimator in sktime](https://www.youtube.com/watch?v=S_3ewcvs_pg)
 
 - [Pydata 2022 - Advanced Forecasting Tutorial](https://www.youtube.com/watch?v=4Rf9euAhjNc)
-
-
-## :rocket: How to get started
-
-You have different options how to run the tutorial notebooks:
-
-* Run the notebooks in the cloud on [Binder] - for this you don't have to install anything!
-* Run the notebooks on your machine. [Clone] this repository, get [conda], install the required packages (`sktime`, `pytest`, `seaborn`, `jupyter`) in an environment, and open the notebooks with that environment. For detail instructions, see below. For troubleshooting, see sktime's more detailed [installation instructions].
-* or, use python venv, and/or an editable install of this repo as a package. Instructions below.
-
-[Binder]: https://mybinder.org/v2/gh/sktime/sktime-tutorial-pydata-global-2022/main?filepath=notebooks
-[clone]: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
-[conda]: https://docs.conda.io/en/latest/
-[installation instructions]: https://www.sktime.org/en/latest/installation.html
 
 ## :wave: How to contribute
 
