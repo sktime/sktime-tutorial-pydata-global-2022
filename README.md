@@ -25,7 +25,7 @@ In the tutorial, we will move through notebooks section by section.
 You have different options how to run the tutorial notebooks:
 
 * Run the notebooks in the cloud on [Binder] - for this you don't have to install anything!
-* Run the notebooks on your machine. [Clone] this repository, get [conda], install the required packages (`sktime`, `pytest`, `seaborn`, `jupyter`) in an environment, and open the notebooks with that environment. For detail instructions, see below. For troubleshooting, see sktime's more detailed [installation instructions].
+* Run the notebooks on your machine. [Clone] this repository, get [conda], install the required packages (`sktime`, `seaborn`, `jupyter`) in an environment, and open the notebooks with that environment. For detail instructions, see below. For troubleshooting, see sktime's more detailed [installation instructions].
 * or, use python venv, and/or an editable install of this repo as a package. Instructions below.
 
 [Binder]: https://mybinder.org/v2/gh/sktime/sktime-tutorial-pydata-global-2022/main?filepath=notebooks
