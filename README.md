@@ -3,15 +3,15 @@
 Welcome to the sktime tutorial at PyData Global 2022
 ====================================================
 
-This tutorial is about [sktime] - a unified framework for machine learning with time series. sktime features various time series algorithms and modular tools for sktime is a widely used scikit-learn compatible library for learning with time series. 
+This tutorial is about [sktime] - a unified framework for machine learning with time series. sktime features various time series algorithms and modular tools for sktime is a widely used scikit-learn compatible library for learning with time series.
 
-`sktime` is easily extensible by anyone, and interoperable with the pydata/numfocus stack. 
+`sktime` is easily extensible by anyone, and interoperable with the pydata/numfocus stack.
 
 This `sktime` tutorial explains **basic and advanced sktime pipeline constructs, and the time series transformer** which is the main component in all types of pipelines.
 
 [sktime]: https://sktime.org
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sktime/sktime-tutorial-pydata-global-2022/main?filepath=notebooks)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sktime/sktime-tutorial-pydata-global-2022/main)
 
 Also recommended:
 
@@ -50,7 +50,7 @@ sktime provides a framework to distinguish the above, and to use transformers of
 * forecasting pipelines, with transformers applied to endogeneous, exogeneous, or output data,
 * time series classification pipelines, with transformers applied to inputs,
 * compositor pipelines for time series distances or parameter estimators,
-* specialized reduction steps consuming different types of transformers and machine learning estimators, 
+* specialized reduction steps consuming different types of transformers and machine learning estimators,
 * and many more.
 
 The design challenge is to formalize transformers in a way that a given type of transformer can be used in multiple types of pipeline, and creating pipelines that can use multipe types of transformers. sktime solves this challenge through the "scientific type" formalism which applies object orientation based typing to the transformers and inputs/outputs.  The presentation will also briefly touch on advanced pipelining concepts such as graph pipelines and roadmap items inviting contributions.
@@ -84,22 +84,22 @@ To clone the repository locally:
 
 ### Using conda env
 
-1. Create a python virtual environment:  
+1. Create a python virtual environment:
 `conda create -y -n pydata_sktime python=3.9`
-2. Install required packages:  
+2. Install required packages:
 `conda install -y -n pydata_sktime pip sktime seaborn jupyter pmdarima`
-3. Activate your environment:  
+3. Activate your environment:
 `conda activate pydata_sktime`
-4. If using jupyter: make the environment available in jupyter:  
+4. If using jupyter: make the environment available in jupyter:
 `python -m ipykernel install --user --name=pydata_sktime`
 
 ### Using python venv
 
-1. Create a python virtual environment:  
+1. Create a python virtual environment:
 `python -m venv .venv`
-2. Activate your environment:  
+2. Activate your environment:
 `source .venv/bin/activate`
-3. Install the requirements:  
+3. Install the requirements:
 `pip install sktime seaborn jupyter pmdarima`
-4. If using jupyter: make the environment available in jupyter:  
+4. If using jupyter: make the environment available in jupyter:
 `python -m ipykernel install --user --name=pydata_sktime`
